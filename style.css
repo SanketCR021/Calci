@@ -1,0 +1,55 @@
+body{
+    font-family: "Poppins", sans-serif;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 12px;
+    width: 45vh;
+    box-shadow: 1px 1px 10px 1px #00000013;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.display{
+    width: 100%;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 400;
+    height: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+   
+    border-radius: 5px;
+    margin: 4px;
+    background-color: #d4dad493;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #d4dad4;
+}
+
+.opr{
+    color: rgb(15, 175, 239);
+}
